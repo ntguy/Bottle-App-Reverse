@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Test</title>
+    <meta charset="UTF-8">
+    <style>
+        .content {
+            max-width: 500px;
+            margin: auto;
+        }
+        body {background: linear-gradient(powderblue, cornflowerblue) fixed;}
+        h1   {
+            color: blue;
+            text-align = center;
+        }
+        button {
+            background-color: blue;
+            color: white;
+            padding: 15px 32px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class = "content">
+        <h1>Text Reverser!</h1>
+        <form action="/output" method = "post">
+            <fieldset>
+                <p><textarea name="txtInput" cols="60" rows="8" required="required">
+                </textarea><br/>
+                <button type = "submit">Reveresify</button>
+            </fieldset>
+        </form>
+        <p>Hint: Try to avoid capitalization for best results!</p>
+    </div>
+</body>
